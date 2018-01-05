@@ -1,0 +1,13 @@
+/* Particle Trails Background Effect */
+
+#particle_bg_effect canvas#canvas {
+    position: absolute;
+    left: 0px;
+}
+@media all and (min-width: 1025px) {
+    #particle_bg_effect canvas#canvas {
+        left: -20px;
+    }
+}
+
+/* End Particle Trails Background Effect */
